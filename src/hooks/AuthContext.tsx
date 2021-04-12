@@ -25,7 +25,7 @@ const AuthProvider: React.FC = ({ children }) => {
     const user = localStorage.getItem('@GoBarber:user');
 
     if (token && user) {
-        return { token, user: JSON.parse(user) };
+      return { token, user: JSON.parse(user) };
     }
 
     return {} as AuthState;
@@ -60,13 +60,13 @@ const AuthProvider: React.FC = ({ children }) => {
 };
 
 function useAuth(): AuthContextData {
-    const context = useContext(AuthContext);
+  const context = useContext(AuthContext);
 
-    if (!context) {
-        throw new Error('useAuth must be used withing a AuthProvider');
-    }
+  if (!context) {
+    throw new Error('useAuth must be used withing a AuthProvider');
+  }
 
-    return context;
+  return context;
 }
 
 export { AuthProvider, useAuth };

@@ -7,3 +7,5 @@ create-react-app gobaberapp --template=typescript - criação do projeto
 * yarn add polished
 * yarn add @unform/core @unform/web
 * yarn add yup
+
+Estrutura de Toasts - 11:44
