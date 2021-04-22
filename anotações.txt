@@ -7,5 +7,6 @@ create-react-app gobaberapp --template=typescript - criação do projeto
 * yarn add polished
 * yarn add @unform/core @unform/web
 * yarn add yup
+* yarn add react-spring
+* yarn add react-router-dom
 
-Adicionando e removendo Toasts - 18:06
