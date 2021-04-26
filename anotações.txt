@@ -9,5 +9,4 @@ create-react-app gobaberapp --template=typescript - criação do projeto
 * yarn add yup
 * yarn add react-spring
 * yarn add react-router-dom
-
-Enviando formulário a API
+* yarn add react-day-picker
