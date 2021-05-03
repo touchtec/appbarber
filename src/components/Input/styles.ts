@@ -13,6 +13,7 @@ export const Container = styled.div<ContainerProps>`
   border-radius: 10px;
   padding: 16px;
   width: 100%;
+
   border: 2px solid #232129;
   color: #666360;
 
@@ -36,7 +37,7 @@ export const Container = styled.div<ContainerProps>`
       border-color: #ff9000;
     `}
 
-    ${props =>
+  ${props =>
     props.isFilled &&
     css`
       color: #ff9000;
@@ -48,7 +49,7 @@ export const Container = styled.div<ContainerProps>`
     border: 0;
     color: #f4ede8;
 
-    &:placeholder {
+    &::placeholder {
       color: #666360;
     }
   }
