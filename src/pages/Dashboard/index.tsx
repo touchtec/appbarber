@@ -121,7 +121,7 @@ const Dashboard: React.FC = () => {
 
   const moringAppointments = useMemo(() => {
     return appointments.filter(appointment => {
-      return parseISO(appointment.date).getHours() < 12;
+      return parseISO(appointment.date).getHours() <= 12;
     });
   }, [appointments]);
 
